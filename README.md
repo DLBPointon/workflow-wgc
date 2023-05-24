@@ -6,7 +6,7 @@
 }
 
 .column10 {
-  float: left;
+  float: center;
   width: 10%;
 }
 
@@ -28,6 +28,10 @@
   clear: both;
 }
 
+.image {
+    padding: 10px;
+}
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -40,7 +44,7 @@
 <div class="card white">
     <a href="https://www.sanger.ac.uk/"><img src="logos/colour/Wellcome_Sanger_Institute_Logo_Landscape_Digital_RGB_Full_Colour.svg" alt="Wellcome Sanger Logo" height=80em class="image"/></a>
     <a href="https://www.wellcomegenomecampus.org/"><img src="logos/colour/WGC_Logo_Landscape_Strapline.png" alt="Wellcome Genome Campus Logo" height=80em class="image"/></a>
-    <a href="https://www.ebi.ac.uk/"><img src="logos/colour/Ebi_official_logo.png" alt="EMBL-EBI logo" height=80em class="image"/></a>
+    <a href="https://www.ebi.ac.uk/"><img src="logos/colour/Ebi_official_logo.png" alt="EMBL-EBI logo" height=80em class="image" align='right'/></a>
 </div>
 
 ---
