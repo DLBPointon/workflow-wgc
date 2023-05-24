@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: main_pages
 title: events
 ---
 
