@@ -37,12 +37,6 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div align="center">
-    <h2> Workflows CoP </h2>
-    <p> The Workflows Community of Practice based at the Wellcome Genome Campus </p>
-</div>
-
----
 <div class="card white">
     <a href="https://www.sanger.ac.uk/"><img src="logos/colour/Wellcome_Sanger_Institute_Logo_Landscape_Digital_RGB_Full_Colour.svg" alt="Wellcome Sanger Logo" height=100em class="image"/></a>
     <a href="https://www.wellcomegenomecampus.org/"><img src="logos/colour/WGC_Logo_Landscape_Strapline.png" alt="Wellcome Genome Campus Logo" height=100em class="image"/></a>
@@ -83,9 +77,4 @@
       <h2><a href="./docs/events.md" style="color:black"> Events Here! <i class="fa fa-calendar large" aria-hidden="true"></i></a></h2>
     </div>
 </div>
-
-<div class='row'>
-  <p>View source on GitHub: ![Workflows-CoP](https://github.com/DLBPointon/workflows-test)</p>
-</div>
-
 
