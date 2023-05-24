@@ -93,7 +93,7 @@
       <h2><a href="./docs/events.html" style="color:black"> Events Here! <i class="fa fa-calendar large" aria-hidden="true"></i></a></h2>
     </div>
     <div class='column'>
-      <h2><a href="./docs/blog.html" style="color:black"> Blog <i class="fa fa-calendar large" aria-hidden="true"></i></a></h2>
+      <h2><a href="./docs/blog.html" style="color:black"> Blog <i class="fa fa-book large" aria-hidden="true"></i></a></h2>
     </div>
 </div>
 
