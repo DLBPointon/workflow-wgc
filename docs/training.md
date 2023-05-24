@@ -47,33 +47,36 @@ The central point of training resources at WGC for Nextflow and NF-core. If you 
         <p> Level 3: Adapting the underlying code of Nextflow to suit your needs. </p>
 </div>
 
-### Essential tutorials
-
-
-### Playlists and videos
-
-#### Essentials
-<dl>
-    <dd><a href="https://www.youtube.com/watch?v=P7LUtBFzSww" class="black-text">Nextflow Tower Introduction 2020</a></dd>
-    <dd><a href="https://www.youtube.com/playlist?list=PLPZ8WHdZGxmUVZRUfua8CsjuhjZ96t62R" class="black-text">Nextflow training playlist 2022</a></dd>
-    <dd><a href="https://www.youtube.com/playlist?list=PL3xpfTVZLcNhoWxHR0CS-7xzu5eRT8uHo" class="black-text">NF-Core training playlist 2023</a></dd>
-</dl>
-
-#### Extras
-<dl>
-    <dd><a href="https://www.youtube.com/playlist?list=PLPZ8WHdZGxmUdAJlHowo7zL2pN3x97d32" class="black-text">Nextflow Summit 2022</a></dd>
-    <dd><a href="https://www.youtube.com/playlist?list=PL3xpfTVZLcNhfyF_QJIfSslnxRCU817yc" class="black-text">NF-Core Hackathon 2023</a></dd>
-</dl>
-
-### Code-along
-<dl>
-    <dd><a href="https://barrydigby.github.io/Introduction/Nextflow" class="black-text">Barry Digby</a></dd>
-    <dd><a href="https://sateeshperi.github.io/nextflow_varcal/nextflow/" class="black-text">Sateesh Peri</a></dd>
-</dl>
-
-### Troubleshooting
-<dl>
-    <dd><a href="https://training.nextflow.io/basic_training/debugging/" class="black-text">Official Nextflow Troubleshooting</a></dd>
-    <dd><a href="https://nf-co.re/usage/troubleshooting" class="black-text">Official NF-Core Troubleshooting</a></dd>
-    <dd><a href="https://midnighter.github.io/nextflow-gotchas/" class="black-text">Midnighter's Guide (an NF-Core maintainer)</a></dd>
-</dl>
+<h2>Essential tutorials</h2>
+<div>
+    <h3>Playlists and videos</h3>
+    <div>
+        <dl>
+            <dd><a href="https://www.youtube.com/watch?v=P7LUtBFzSww" class="black-text">Nextflow Tower Introduction 2020</a></dd>
+            <dd><a href="https://www.youtube.com/playlist?list=PLPZ8WHdZGxmUVZRUfua8CsjuhjZ96t62R" class="black-text">Nextflow training playlist 2022</a></dd>
+            <dd><a href="https://www.youtube.com/playlist?list=PL3xpfTVZLcNhoWxHR0CS-7xzu5eRT8uHo" class="black-text">NF-Core training playlist 2023</a></dd>
+        </dl>
+    </div>
+</div>
+<h2>Extras</h2>
+<div>
+    <dl>
+        <dd><a href="https://www.youtube.com/playlist?list=PLPZ8WHdZGxmUdAJlHowo7zL2pN3x97d32" class="black-text">Nextflow Summit 2022</a></dd>
+        <dd><a href="https://www.youtube.com/playlist?list=PL3xpfTVZLcNhfyF_QJIfSslnxRCU817yc" class="black-text">NF-Core Hackathon 2023</a></dd>
+    </dl>
+</div>
+<h2>Code-along</h2>
+<div>
+    <dl>
+        <dd><a href="https://barrydigby.github.io/Introduction/Nextflow" class="black-text">Barry Digby</a></dd>
+        <dd><a href="https://sateeshperi.github.io/nextflow_varcal/nextflow/" class="black-text">Sateesh Peri</a></dd>
+    </dl>
+</div>
+<h2>Troubleshooting</h2>
+<div>
+    <dl>
+        <dd><a href="https://training.nextflow.io/basic_training/debugging/" class="black-text">Official Nextflow Troubleshooting</a></dd>
+        <dd><a href="https://nf-co.re/usage/troubleshooting" class="black-text">Official NF-Core Troubleshooting</a></dd>
+        <dd><a href="https://midnighter.github.io/nextflow-gotchas/" class="black-text">Midnighter's Guide (an NF-Core maintainer)</a></dd>
+    </dl>
+</div>
