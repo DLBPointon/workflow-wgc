@@ -76,7 +76,7 @@
     <div class='column'>
       <h2><a href="./docs/training.html" style="color:black" > Training Here! <i class="fa fa-free-code-camp large" aria-hidden="true"></i></a></h2>
     </div>
-    <div class='column' align='centre'>
+    <div class='column' align='center'>
       <h2><a href="SLACK LINK" style="color:black" > Slack Link! <i class="fa fa-connectdevelop large" aria-hidden="true"></i></a></h2>
     </div>
     <div class='column' align='right'>
