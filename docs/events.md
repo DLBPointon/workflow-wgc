@@ -3,7 +3,7 @@ layout: main_pages
 title: events
 ---
 
-## Events :calendar:
+## Events 
 
 The central point of all Workflows-CoP events.
 
