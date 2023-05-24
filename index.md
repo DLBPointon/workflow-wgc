@@ -4,7 +4,7 @@
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 25%;
 }
 
 .column10 {
@@ -76,11 +76,14 @@
     <div class='column'>
       <h2><a href="./docs/training.html" style="color:black" > Training Here! <i class="fa fa-free-code-camp large" aria-hidden="true"></i></a></h2>
     </div>
-    <div class='column' align='center'>
+    <div class='column'>
       <h2><a href="SLACK LINK" style="color:black" > Slack Link! <i class="fa fa-connectdevelop large" aria-hidden="true"></i></a></h2>
     </div>
-    <div class='column' align='right'>
+    <div class='column'>
       <h2><a href="./docs/events.html" style="color:black"> Events Here! <i class="fa fa-calendar large" aria-hidden="true"></i></a></h2>
+    </div>
+    <div class='column'>
+      <h2><a href="./docs/blog.html" style="color:black"> Blog <i class="fa fa-calendar large" aria-hidden="true"></i></a></h2>
     </div>
 </div>
 

@@ -51,7 +51,9 @@ The central point of training resources at WGC for Nextflow and NF-core. If you 
     <div class="column">
         <h3><a href="https://docs.groovy-lang.org/next/html/documentation/" class="black-text">Official Groovy Docs</a></h3>
         <p> Level 3: Adapting the underlying code of Nextflow to suit your needs. </p>
+    </div>
 </div>
+
 <div class="row">
     <h2>Essential tutorials</h2>
     <div>
