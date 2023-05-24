@@ -1,5 +1,6 @@
 ---
 layout: default
+title: training
 ---
 
 <h2> Training  </h2>
