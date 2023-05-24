@@ -72,13 +72,13 @@
   
 <div class='row'>
     <div class='column'>
-      <h2><a href="./docs/training.md" style="color:black" > Training Here! <i class="fa fa-free-code-camp large" aria-hidden="true"></i></a></h2>
+      <h2><a href="docs/training.md" style="color:black" > Training Here! <i class="fa fa-free-code-camp large" aria-hidden="true"></i></a></h2>
     </div>
     <div class='column' align='centre'>
       <h2><a href="SLACK LINK" style="color:black" > Slack Link! <i class="fa fa-connectdevelop large" aria-hidden="true"></i></a></h2>
     </div>
     <div class='column' align='right'>
-      <h2><a href="./docs/events.md" style="color:black"> Events Here! <i class="fa fa-calendar large" aria-hidden="true"></i></a></h2>
+      <h2><a href="docs/events.md" style="color:black"> Events Here! <i class="fa fa-calendar large" aria-hidden="true"></i></a></h2>
     </div>
 </div>
 
