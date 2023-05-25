@@ -5,9 +5,9 @@ title: Gallery
 
 <h1 class="gallery-header dark-blue">Events</h1>
 <div class="gallery-container">
+<hr />
  {% assign sorted_array = site.events | sort: "title" %}
  {% for event in sorted_array %}
-    {% if event.status == 'Publish'}
     <div class="gallery-item">
       <h3><p class="gallery-item__title">{{ event.title }}</p></h3>
       <p class="gallery-item__text">Find it at <h4>{{ event.location }}</h4> starting at <h4>{{ event.date }}</h4></p>
@@ -22,7 +22,5 @@ title: Gallery
       <hr />
       <br>
     </div>
-    {% endif %}
-    <p></p>
  {% endfor %}
 </div>
