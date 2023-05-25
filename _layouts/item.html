@@ -1,19 +1,36 @@
 ---
 layout: default
 ---
-<div class="article-container">
- <h1 class="item-header">{{ page.title }}</h1>
- <div class="item-footer">
-   <div class="item-footer__status">
-     <div class="item-footer__left">
-       <p class="item-footer__bold">Location:</p>
-       <p>{{ page.location }}</p>
-     </div>
-     <div class="item-footer__right">
-       <p class="item-footer__bold">Description:</p>
-       <p>{{ page.description }}</p>
-     </div>
-   </div>
- </div>
- {{ content }}
-</div>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="article-container">
+        <h1 class="item-header">{{ page.title }}</h1>
+        <div class="item-footer">
+        <div class="item-footer__status">
+            <div class="item-footer__left">
+            <p class="item-footer__bold">Location:</p>
+            <p>{{ page.location }}</p>
+            </div>
+            <div class="item-footer__right">
+            <p class="item-footer__bold">Description:</p>
+            <p>{{ page.description }}</p>
+            </div>
+        </div>
+        </div>
+        {{ content }}
+        </div>
+    </body>
+</html>
