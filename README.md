@@ -1,3 +1,3 @@
-## Workflows Community of Practise
+## Workflows Community of Practice
 
 Webiste for the WGC Workflows CoP
