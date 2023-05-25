@@ -48,13 +48,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="row">
-  <div class="column33">
+  <div class="column">
+    <img src="logos/workflows/Full_WICoP.png" alt="Wellcome Sanger Logo" height=100em class="image" align='left'/>
+  </div>
+  <div class="column">
     <a href="https://www.sanger.ac.uk/"><img src="logos/colour/Wellcome_Sanger_Institute_Logo_Landscape_Digital_RGB_Full_Colour.svg" alt="Wellcome Sanger Logo" height=100em class="image" align='left'/></a>
   </div>
-  <div class="column33">
+  <div class="column">
     <a href="https://www.wellcomegenomecampus.org/"><img src="logos/colour/WGC_Logo_Landscape_Strapline.png" alt="Wellcome Genome Campus Logo" height=100em class="image" align='center'/></a>
   </div>
-  <div class="column33">
+  <div class="column">
     <a href="https://www.ebi.ac.uk/"><img src="logos/colour/Ebi_official_logo.png" alt="EMBL-EBI logo" height=100em class="image" align='right'/></a>
   </div>
 </div>
