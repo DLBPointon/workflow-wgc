@@ -17,7 +17,7 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <a href="https://www.sanger.ac.uk/"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
+          <a href="https://https://workflows-community.github.io/"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 
         <hr />
@@ -25,8 +25,7 @@
         {{ content }}
 
         </section>
-        <p><small>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small></p>
-        <p class="view"><small><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></small></p>
+        <p><small>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>. You can submit an issue with the site on the <a href="https://github.com/workflows-community/workflows-community.github.io">GitHub Project Page</a></small></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
