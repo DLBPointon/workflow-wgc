@@ -3,7 +3,7 @@ description: The Workflows Community of Practise webpage
 baseurl: /
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 collections:
   events:
     output: true

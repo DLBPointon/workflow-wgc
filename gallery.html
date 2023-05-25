@@ -8,10 +8,9 @@ title: Gallery
  {% assign sorted_array = site.events | sort: "title" %}
  {% for event in sorted_array %}
    <div class="gallery-item">
-     <h4><p class="gallery-item__title">{{ event.title }}</p></h4>
-     <p class="gallery-item__text">Find it at: <h4>{{ event.location }}</h4> starting at <h4>{{ event.date }}</h4></p>
+     <h3><p class="gallery-item__title">{{ event.title }}</p></h3>
+     <p class="gallery-item__text">Find it at <h4>{{ event.location }}</h4> starting at <h4>{{ event.date }}</h4></p>
      <p class="gallery-item__text">Description:</p>
-     <p class="gallery-item__text">{{ event.location }}</p>
      <!-- Add item link here later -->
      <a href="{{ event.url }}">
        <div class="gallery-item__link">
