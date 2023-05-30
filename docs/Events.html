@@ -12,13 +12,13 @@ title: Events
 	{% for event in sorted_array %}
 	
 		<div class="gallery-item">
-			{% if event.type === 'Hackathon' %}
+			{% if event.type == 'Hackathon' %}
 				<h3><p class="gallery-item__title"><i class="fa fa-code" aria-hidden="true"></i> {{ event.title }}</p></h3>
-			{% elsif  event.type === 'Seminar' %}
+			{% elsif  event.type == 'Seminar' %}
 				<h3><p class="gallery-item__title"><i class="fa fa-bookmark" aria-hidden="true"></i> {{ event.title }}</p></h3>
-			{% elsif  event.type === 'Meetup' %}
+			{% elsif  event.type == 'Meetup' %}
 				<h3><p class="gallery-item__title"><i class="fa fa-meetup" aria-hidden="true"></i> {{ event.title }}</p></h3>
-			{% elsif  event.type === 'Training' %}
+			{% elsif  event.type == 'Training' %}
 				<h3><p class="gallery-item__title"><i class="fa fa-pencil" aria-hidden="true"></i> {{ event.title }}</p></h3>
 			{% else %}
 				<h3><p class="gallery-item__title"><i class="fa fa-question-circle-o" aria-hidden="true"></i> {{ event.title }}</p></h3>
