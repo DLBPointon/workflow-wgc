@@ -64,7 +64,9 @@
 <div class='row'>
     <div class='column45'>
       <h3> Goals for W-CoP </h3>
-      <p> Our goals are to expand the Nextflow community at WGC and show how to move workflows over to this powerful language. </p>
+      <p> 
+        Our goals are to expand the Nextflow community at WGC and show how to move workflows over to this powerful language.
+      </p>
     </div>
     <div class='column10'></div>
     <div class='column45r'>
