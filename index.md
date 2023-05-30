@@ -83,15 +83,15 @@
 <div class='row'>
 
 ---
-
+<p>Sponsored:</p>
 <div class="row">
   <div class="column33">
-    <a href="https://www.sanger.ac.uk/"><img src="logos/colour/Wellcome_Sanger_Institute_Logo_Landscape_Digital_RGB_Full_Colour.svg" alt="Wellcome Sanger Logo" height=100em class="image" align='left'/></a>
+    <a href="https://www.sanger.ac.uk/"><img src="logos/colour/Wellcome_Sanger_Institute_Logo_Landscape_Digital_RGB_Full_Colour.svg" alt="Wellcome Sanger Logo" height=75em class="image" align='left'/></a>
   </div>
   <div class="column33">
-    <a href="https://www.wellcomegenomecampus.org/"><img src="logos/colour/WGC_Logo_Landscape_Strapline.png" alt="Wellcome Genome Campus Logo" height=100em class="image" align='center'/></a>
+    <a href="https://www.wellcomegenomecampus.org/"><img src="logos/colour/WGC_Logo_Landscape_Strapline.png" alt="Wellcome Genome Campus Logo" height=75em class="image" align='center'/></a>
   </div>
   <div class="column33">
-    <a href="https://www.ebi.ac.uk/"><img src="logos/colour/Ebi_official_logo.png" alt="EMBL-EBI logo" height=100em class="image" align='right'/></a>
+    <a href="https://www.ebi.ac.uk/"><img src="logos/colour/Ebi_official_logo.png" alt="EMBL-EBI logo" height=75em class="image" align='right'/></a>
   </div>
 </div>
