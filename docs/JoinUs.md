@@ -32,3 +32,10 @@ title: Join Us
 </style>
 
 ## Join Us at W-CoP
+
+If you want to join W-CoP or just keep up with related events then these are the links for you:
+
+Slack here:
+
+YouTube:
+

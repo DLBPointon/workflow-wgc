@@ -32,3 +32,6 @@ title: About Us
 </style>
 
 ## About W-CoP
+
+W-CoP is...
+

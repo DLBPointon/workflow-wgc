@@ -2,6 +2,8 @@
 layout: main_pages
 title: Events
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <h1 class="gallery-header dark-blue">Events</h1>
 <div class="gallery-container">
@@ -9,18 +11,18 @@ title: Events
 	{% assign sorted_array = site.events | sort: "title" %}
 	{% for event in sorted_array %}
 		{% if event.type === 'Hackathon' %}
-			{% event_image = 'link to something for hackathon' %}
+			{% event_image = 'fa fa-code' %}
 		{% elseif  event.type === 'Seminar' %}
-			{% event_image = 'link to something for hackathon' %}
+			{% event_image = 'fa fa-bookmark' %}
 		{% elseif  event.type === 'Meetup' %}
-			{% event_image = 'link to something for hackathon' %}
+			{% event_image = 'fa fa-meetup' %}
 		{% elseif  event.type === 'Training' %}
-			{% event_image = 'link to something for hackathon' %}
+			{% event_image = 'fa fa-pencil' %}
 		{% else %}
-			{% event_image = 'link to something for hackathon' %}
+			{% event_image = 'fa fa-question-circle-o' %}
 		{%endif%}
 		<div class="gallery-item">
-			<h3><p class="gallery-item__title"><img src= "{{ event_image }}" alt="Event icon"><img> {{ event.title }}</p></h3>
+			<h3><p class="gallery-item__title"><i class="{{ event_image }}" aria-hidden="true"></i> {{ event.title }}</p></h3>
 			<p>Find us at: {{ event.location_name }} </p>
 			<p>Starting: {{ event.start_date }} @ {{ event.start_time }}</p>
 			<p>Ending: {{ event.end_date }} @ {{ event.end_time }}</p>
