@@ -9,20 +9,20 @@ title: Events
 <div class="gallery-container">
 <hr />
 	{% assign sorted_array = site.events | sort: "title" %}
-	{% for event in sorted_array %}
-		{% if event.type === 'Hackathon' %}
-			{% event_image = 'fa fa-code' %}
-		{% elseif  event.type === 'Seminar' %}
-			{% event_image = 'fa fa-bookmark' %}
-		{% elseif  event.type === 'Meetup' %}
-			{% event_image = 'fa fa-meetup' %}
-		{% elseif  event.type === 'Training' %}
-			{% event_image = 'fa fa-pencil' %}
-		{% else %}
-			{% event_image = 'fa fa-question-circle-o' %}
-		{%endif%}
+	
 		<div class="gallery-item">
-			<h3><p class="gallery-item__title"><i class="{{ event_image }}" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{% for event in sorted_array %}
+			{% if event.type === 'Hackathon' %}
+				<h3><p class="gallery-item__title"><i class="fa fa-code" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{% elseif  event.type === 'Seminar' %}
+				<h3><p class="gallery-item__title"><i class="fa fa-bookmark" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{% elseif  event.type === 'Meetup' %}
+				<h3><p class="gallery-item__title"><i class="fa fa-meetup" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{% elseif  event.type === 'Training' %}
+				<h3><p class="gallery-item__title"><i class="fa fa-pencil" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{% else %}
+				<h3><p class="gallery-item__title"><i class="fa fa-question-circle-o" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{%endif%}
 			<p>Find us at: {{ event.location_name }} </p>
 			<p>Starting: {{ event.start_date }} @ {{ event.start_time }}</p>
 			<p>Ending: {{ event.end_date }} @ {{ event.end_time }}</p>
