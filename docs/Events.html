@@ -1,0 +1,38 @@
+---
+layout: main_pages
+title: Events
+---
+
+<h1 class="gallery-header dark-blue">Events</h1>
+<div class="gallery-container">
+<hr />
+	{% assign sorted_array = site.events | sort: "title" %}
+	{% for event in sorted_array %}
+		{% if event.type === 'Hackathon' %}
+			{% event_image = 'link to something for hackathon' %}
+		{% elseif  event.type === 'Seminar' %}
+			{% event_image = 'link to something for hackathon' %}
+		{% elseif  event.type === 'Meetup' %}
+			{% event_image = 'link to something for hackathon' %}
+		{% elseif  event.type === 'Training' %}
+			{% event_image = 'link to something for hackathon' %}
+		{% else %}
+			{% event_image = 'link to something for hackathon' %}
+		{%endif%}
+		<div class="gallery-item">
+			<h3><p class="gallery-item__title"><img src= "{{ event_image }}" alt="Event icon"><img> {{ event.title }}</p></h3>
+			<p>Find us at: {{ event.location_name }} </p>
+			<p>Starting: {{ event.start_date }} @ {{ event.start_time }}</p>
+			<p>Ending: {{ event.end_date }} @ {{ event.end_time }}</p>
+			<p class="gallery-item__text">Description: {{ event.subtitle }}</p>
+			<a href="{{ event.url }}">
+				<div class="gallery-item__link">
+					<span>Read More</span>
+					<img class="gallery-item__arrow" src="./logos/travel.svg" height=25em>
+				</div>
+			</a>
+			<hr />
+			<br>
+		</div>
+	{% endfor %}
+</div>
