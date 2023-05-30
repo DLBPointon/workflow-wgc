@@ -1,3 +1,3 @@
 ## Workflows Community of Practice
 
-Webiste for the WGC Workflows CoP
+Website for the Workflows Community of Practice at the Wellcome Genome Campus.
