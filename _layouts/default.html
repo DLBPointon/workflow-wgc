@@ -17,12 +17,14 @@
 <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         <hr />
+        <div class="container">
         {% assign doclist = site.data.navigation.docs | sort: 'title'  %}
-        <div class="row">
+          <div class="content">
           {% for item in doclist %}
-              <h3><a href="{{site.baseUrl}}{{ item.url }}">{{ item.title }}</a></h3>
+              <a href="{{site.baseUrl}}{{ item.url }}"><h3>{{ item.title }}</h3></a>
           {% endfor %}
           </div>
+        </div>
         <hr />
 
         {{ content }}
