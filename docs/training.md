@@ -1,6 +1,6 @@
 ---
 layout: main_pages
-title: training
+title: Training
 ---
 
 <style>
