@@ -8,3 +8,5 @@ plugins:
 collections:
   events:
     output: true
+  includes:
+    output: true
