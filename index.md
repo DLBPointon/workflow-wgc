@@ -51,9 +51,10 @@
 
 <div class='row'>
     <div class='column45'>
-      <h3> Goals for W-CoP </h3>
+      <a href="{{site.baseUrl}}/docs/AboutUs.html"><h3> About Us </h3></a>
       <p> 
-        Our goals are to expand the Nextflow community at WGC and show how to move workflows over to this powerful language.
+        Something Something Something
+        Blah Blah Blah
       </p>
     </div>
     <div class='column10'></div>
