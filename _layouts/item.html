@@ -14,7 +14,12 @@
     <h1><img align="left" src="https://workflows-community.github.io/logos/workflows/WCoP.png" height=50px><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
     <hr />
-    {{ site.includes.navigation }}
+    {% assign doclist = site.data.navigation.docs | sort: 'title'  %}
+      <div class="row">
+      {% for item in doclist %}
+          <h3><a href="{{site.baseUrl}}{{ item.url }}">{{ item.title }}</a></h3>
+      {% endfor %}
+      </div>
     <hr />
 
   <body>

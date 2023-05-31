@@ -18,11 +18,11 @@
 
         <hr />
         {% assign doclist = site.data.navigation.docs | sort: 'title'  %}
-          <ol>
+          <div class="row">
           {% for item in doclist %}
-              <li><a href="{{site.baseUrl}}{{ item.url }}">{{ item.title }}</a></li>
+              <h3><a href="{{site.baseUrl}}{{ item.url }}">{{ item.title }}</a></h3>
           {% endfor %}
-          </ol>
+          </div>
         <hr />
 
         {{ content }}
