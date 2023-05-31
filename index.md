@@ -47,23 +47,6 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class='row'>
-    <div class='column'>
-      <h2><a href="./docs/AboutUs.html" style="color:black" > About Us <i class="fa fa-connectdevelop large" aria-hidden="true"></i></a></h2>
-    </div>
-    <div class='column'>
-      <h2><a href="./docs/JoinUs.html" style="color:black" > Join Us <i class="fa fa-connectdevelop large" aria-hidden="true"></i></a></h2>
-    </div>
-    <div class='column'>
-      <h2><a href="./docs/Events.html" style="color:black"> Event List <i class="fa fa-book large" aria-hidden="true"></i></a></h2>
-    </div>
-    <div class='column'>
-      <h2><a href="./docs/Training.html" style="color:black" > Training <i class="fa fa-free-code-camp large" aria-hidden="true"></i></a></h2>
-    </div>
-</div>
-
-<hr />
-
 <hr />
 
 <div class='row'>
