@@ -7,7 +7,7 @@ title: Events
 <h1 class="gallery-header dark-blue">Events</h1>
 <div class="gallery-container">
 <hr />
-	{% assign sorted_array = site.events | sort: "title" %}
+	{% assign sorted_array = site.events | sort: "start_date" %}
 	{% for event in sorted_array %}
 	
 		<div class="gallery-item">
