@@ -1,5 +1,6 @@
 # Belongs at: /_data/navigation.yml
 
+docs:
 - title: Home
   url: /
 
