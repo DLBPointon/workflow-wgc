@@ -1,9 +1,6 @@
 # Belongs at: /_data/navigation.yml
 
 docs:
-- title: Home
-  url: /
-
 - title: About Us
   url: /docs/AboutUs.html
 
