@@ -1,7 +1,8 @@
 <!-- 
 ---
-layout: item # ESSENTIAL FIELD
-subtitle: something happened
+layout: item 
+title: MainTitle
+subtitle: Brief Description
 location_name: supercool base
 start_date: '01/01/0101'
 start_time: '09:00 BST'
@@ -11,6 +12,7 @@ status: {publish|draft} Not in use yet
 type: {hackathon|meetup|seminar|training}
 ---
 
+Layout is an essential field, don't change it. <-- remove me
 Things happened here
 
 -->
