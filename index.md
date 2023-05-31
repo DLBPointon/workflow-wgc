@@ -74,7 +74,7 @@
 <div class='row'>
 
 ---
-<p>Sponsored:</p>
+<p>Sponsored by:</p>
 <div class="row">
   <div class="column33">
     <a href="https://www.ebi.ac.uk/"><img src="logos/colour/Ebi_official_logo.png" alt="EMBL-EBI logo" height=75em class="image" align='right'/></a>
