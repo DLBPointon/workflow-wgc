@@ -6,7 +6,7 @@ title: About Us
 <style>
 .column {
   float: left;
-  width: 30%;
+  width: 25%;
 }
 .columnG {
   float: left;
