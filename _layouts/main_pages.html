@@ -17,12 +17,14 @@
 <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         <hr />
+        <div class="container">
         {% assign doclist = site.data.navigation.docs | sort: 'title'  %}
-          <div class="row">
+          <div class="content">
           {% for item in doclist %}
-              <h3><a href="{{site.baseUrl}}{{ item.url }}">{{ item.title }}</a></h3>
+              <a href="{{site.baseUrl}}{{ item.url }}"><h3>{{ item.title }}</h3></a>
           {% endfor %}
           </div>
+        </div>
         <hr />
 
         {{ content }}
@@ -47,7 +49,7 @@
 	  display: table;
 	  clear: both;
 	}
-	
+
 	.image {
 		padding: 10px;
 	}
@@ -57,4 +59,31 @@
 		width: 100%;
 	  }
 	}
+
+div.container {
+  height:20px;
+  overflow: hidden;
+  margin: 15px 0px;
+  padding:5px 10px 5px 10px;
+  white-space: nowrap;  
+}
+   
+div.content{
+  width:100%;
+  float:left;
+  display:inline;
+}
+   
+div.content a {
+  float:left;
+  padding: 2px 2px;
+  border: 1px solid #cccccc;
+  text-align:center;
+}
+
+div.content a:hover {
+  background-color:#433FC1;
+  color:#fff;
+  text-decoration:none;
+}
 </style>
