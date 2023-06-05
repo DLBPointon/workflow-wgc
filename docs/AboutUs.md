@@ -57,13 +57,13 @@ The core team members are responsible for organising events, and other community
 
 [EMBL-EBI](https://www.ebi.ac.uk) is international, innovative and interdisciplinary, and a champion of open data in the life sciences.
 
-</br>
+<br />
 
 <img align="left" src="https://raw.githubusercontent.com/workflows-community/workflows-community.github.io/main/logos/colour/WGC_Logo_Landscape_Strapline.png" height=50px>
 
 [Wellcome Genome Campus](https://www.wellcomegenomecampus.org) is home to two leading institutes as well as innovative genomics and biodata companies, scientific facilities, and a state of the art conference centre.
 
-</br>
+<br />
 
 <img align="left" src="https://raw.githubusercontent.com/workflows-community/workflows-community.github.io/main/logos/colour/Wellcome_Sanger_Institute_Logo_Landscape_Digital_RGB_Full_Colour.svg" height=50px>
 
