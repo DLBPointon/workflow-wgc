@@ -55,7 +55,7 @@
       <p> 
         The Workflows Community of Practice aims to build a long-lasting local community of developers of pipelines, associated tools and informatics infrastructure, as well as Nextflow users.
 
-        "As bioinformatics continues to evolve quickly we recognise how essential communities, such as this one, are," said John Boyle, Associate Director of Science Solutions at the Wellcome Sanger Institute. "This community provides the means for us to share and advance knowledge with our peers. It also provides a forum for us to understand best practice, so that we can improve how we use workflow tools to rapidly put together state of the art analysis pipelines, which are required for us to undertake cutting edge science."
+        </br> "As bioinformatics continues to evolve quickly we recognise how essential communities, such as this one, are," said John Boyle, Associate Director of Science Solutions at the Wellcome Sanger Institute. "This community provides the means for us to share and advance knowledge with our peers. It also provides a forum for us to understand best practice, so that we can improve how we use workflow tools to rapidly put together state of the art analysis pipelines, which are required for us to undertake cutting edge science."
       </p>
     </div>
     <div class='column10'></div>
