@@ -23,7 +23,7 @@ title: Events
 				<h3><p class="gallery-item__title"><i class="fa fa-question-circle-o" aria-hidden="true"></i> {{ event.title }}</p></h3>
 			{%endif%}
 			<p>Find us at: {{ event.location_name }} </p>
-			<p>Starting: {{ event.date | date: "%d-%m-%y" }} @ {{ event.start_time }}</p>
+			<p>Starting: {{ event.date | date: "%d-%m-%Y" }} @ {{ event.start_time }}</p>
 			<p>Ending: {{ event.end_date }} @ {{ event.end_time }}</p>
 			<p class="gallery-item__text">Description: {{ event.subtitle }}</p>
 			<a href="{{ event.url }}">
