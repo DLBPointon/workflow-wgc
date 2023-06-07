@@ -45,12 +45,12 @@ The core team members are responsible for organising events, and other community
 
 [**Likhitha Surapaneni**](https://github.com/likhitha-surapaneni) works at EMBL's European Bioinformatics Institute (EBML-EBI) as a Bioinformatics Developer in the Genome Interpretation team, which focuses on providing fundamental reference resources that underpin genomic research.
 
-[**Damon-Lee Pointon**](https://github.com/DLBPointon) is a bioinformatian working in the Assembly team within the Tree of Life programme at Wellcome Sanger Institute. His day-to-day role includes building and running, the nextflow pipeline, TreeVal. This large pipeline generates suplemental data for the curation of high quality reference genomes.
+[**Damon-Lee Pointon**](https://github.com/DLBPointon) is a bioinformatician working in the Assembly team within the Tree of Life programme at Wellcome Sanger Institute. His day-to-day role includes building and running, the nextflow pipeline, TreeVal. This large pipeline generates suplemental data for the curation of high quality reference genomes.
 He holds both a BSc (Hons) Microbiology from Nottingham Trent University and a BSc (Hons) Data Science (Bioinformatics). Prior to joining Sanger in 2019 as an apprentice, he has worked as a Microbiologist and Science Tutor.
 
 [**Antonio Marinho**](https://github.com/AMarinhoSN) is a Senior Bioinformatician in the Genomic Surveillance Unit at the Wellcome Sanger Institute.
 
-[**Simon Murray**](https://github.com/SimonDMurray) is a bioinformatician working within the Cellular Genetics Programme at the Wellcome Sanger Institute.
+[**Simon Murray**](https://github.com/SimonDMurray) is a Bioinformatician working for the Cellular Genetics Informatics team at the Wellcome Sanger Institute. His major responsibilities involve developing high throughput pipelines to deal with a variety of different sequencing protocols including scRNAseq, scATACseq, CITEseq, Smartseq2 and bulk RNAseq. These pipelines have a variety of functions including alignment, artefact removal, donor deconvolution and quality control. He has a BSc (Hons) Data Science (Bioinformatics) from Anglia Ruskin University which he obtained whilst completing his apprenticeship at Sanger.
 
 # Organisations
 
