@@ -50,7 +50,7 @@ He holds both a BSc (Hons) Microbiology from Nottingham Trent University and a B
 
 [**Antonio Marinho**](https://github.com/AMarinhoSN) is a Senior Bioinformatician in the Genomic Surveillance Unit at the Wellcome Sanger Institute.
 
-[**Simon Murray**](https://github.com/SimonDMurray) is a bioinformatician working within the Cellular Genetics Programme at the Wellcome Sanger Institute.
+[**Simon Murray**](https://github.com/SimonDMurray) is a Bioinformatician working for the Cellular Genetics Informatics team at the Wellcome Sanger Institute. His major responsibilities involve developing high throughput pipelines to deal with a variety of different sequencing protocols including scRNAseq, scATACseq, CITEseq, Smartseq2 and bulk RNAseq. These pipelines have a variety of functions including alignment, artefact removal, donor deconvolution and quality control. He has a BSc (Hons) Data Science (Bioinformatics) from Anglia Ruskin University which he obtained whilst completing his apprenticeship at Sanger.
 
 # Organisations
 
