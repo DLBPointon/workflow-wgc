@@ -10,3 +10,4 @@ collections:
     output: true
   includes:
     output: true
+future: true
