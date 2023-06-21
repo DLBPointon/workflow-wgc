@@ -1,0 +1,14 @@
+# Belongs at: /_data/navigation.yml
+
+docs:
+- title: About Us
+  url: /docs/AboutUs.html
+
+- title: Join Us
+  url: /docs/JoinUs.html
+
+- title: Training
+  url: /docs/training.html
+
+- title: Events
+  url: /docs/Events.html

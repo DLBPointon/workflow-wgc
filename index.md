@@ -47,24 +47,16 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="row">
-  <div class="column33">
-    <a href="https://www.sanger.ac.uk/"><img src="logos/colour/Wellcome_Sanger_Institute_Logo_Landscape_Digital_RGB_Full_Colour.svg" alt="Wellcome Sanger Logo" height=100em class="image" align='left'/></a>
-  </div>
-  <div class="column33">
-    <a href="https://www.wellcomegenomecampus.org/"><img src="logos/colour/WGC_Logo_Landscape_Strapline.png" alt="Wellcome Genome Campus Logo" height=100em class="image" align='center'/></a>
-  </div>
-  <div class="column33">
-    <a href="https://www.ebi.ac.uk/"><img src="logos/colour/Ebi_official_logo.png" alt="EMBL-EBI logo" height=100em class="image" align='right'/></a>
-  </div>
-</div>
-
----
+<hr />
 
 <div class='row'>
     <div class='column45'>
-      <h3> Goals for W-CoP </h3>
-      <p> Our goals are to expand the Nextflow community at WGC and show how to move workflows over to this powerful language. </p>
+      <a href="{{site.baseUrl}}/docs/AboutUs.html"><h3> About Us </h3></a>
+      <p> 
+        The Workflows Community of Practice aims to build a long-lasting local community of developers of pipelines, associated tools and informatics infrastructure, as well as Nextflow users.
+
+        "As bioinformatics continues to evolve quickly we recognise how essential communities, such as this one, are," said John Boyle, Associate Director of Science Solutions at the Wellcome Sanger Institute. "This community provides the means for us to share and advance knowledge with our peers. It also provides a forum for us to understand best practice, so that we can improve how we use workflow tools to rapidly put together state of the art analysis pipelines, which are required for us to undertake cutting edge science."
+      </p>
     </div>
     <div class='column10'></div>
     <div class='column45r'>
@@ -81,16 +73,3 @@
 </div>
 
 <div class='row'>
-  
-<div class='row'>
-    <div class='column33'>
-      <h2><a href="./docs/training.html" style="color:black" > Training Here! <i class="fa fa-free-code-camp large" aria-hidden="true"></i></a></h2>
-    </div>
-    <div class='column33'>
-      <h2><a href="SLACK LINK" style="color:black" > Slack Link! <i class="fa fa-connectdevelop large" aria-hidden="true"></i></a></h2>
-    </div>
-    <div class='column33'>
-      <h2><a href="gallery.html" style="color:black"> Event List <i class="fa fa-book large" aria-hidden="true"></i></a></h2>
-    </div>
-</div>
-

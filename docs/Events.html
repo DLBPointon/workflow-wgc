@@ -1,0 +1,67 @@
+---
+layout: main_pages
+title: Events
+---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h1 class="gallery-header dark-blue">Events</h1>
+<div class="gallery-container">
+<hr />
+	{% assign sorted_array = site.events | sort: "start_date" | reverse %}
+	{% for event in sorted_array %}
+	
+		<div class="gallery-item">
+			{% if event.type == 'hackathon' %}
+				<h3><p class="gallery-item__title"><i class="fa fa-code" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{% elsif  event.type == 'seminar' %}
+				<h3><p class="gallery-item__title"><i class="fa fa-bookmark" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{% elsif  event.type == 'meetup' %}
+				<h3><p class="gallery-item__title"><i class="fa fa-meetup" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{% elsif  event.type == 'training' %}
+				<h3><p class="gallery-item__title"><i class="fa fa-pencil" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{% else %}
+				<h3><p class="gallery-item__title"><i class="fa fa-question-circle-o" aria-hidden="true"></i> {{ event.title }}</p></h3>
+			{%endif%}
+			<p>Find us at: {{ event.location_name }} </p>
+			<p>Starting: {{ event.date | date: "%d-%m-%Y" }} @ {{ event.start_time }}</p>
+			<p>Ending: {{ event.end_date }} @ {{ event.end_time }}</p>
+			<p class="gallery-item__text">Description: {{ event.subtitle }}</p>
+			<a href="{{ event.url }}">
+				<div class="gallery-item__link">
+					<span>Read More</span>
+					<img class="gallery-item__arrow" src="../logos/travel.svg" height=25em>
+				</div>
+			</a>
+			<hr />
+			<br>
+		</div>
+	{% endfor %}
+</div>
+
+<style>
+	.column {
+	  float: left;
+	  width: 25%;
+	}
+	.columnG {
+	  float: left;
+	  width: 5%;
+	}
+	
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	
+	.image {
+		padding: 10px;
+	}
+	
+	@media screen and (max-width: 600px) {
+	  .column {
+		width: 100%;
+	  }
+	}
+</style>
